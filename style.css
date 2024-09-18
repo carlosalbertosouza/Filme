@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/Via\ lactea\ poster.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    color: white;
+    text-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.795);
+    margin: 40px;
+
+}
+
+h2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.795);
+    margin: 40px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.527);
+    margin: 40px;
+}
+
+div {
+    display: flexbox;
+    margin: 25px;
+}
+
+img {
+    width: 190px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.719);
+}
+
+a {
+    text-decoration: none;
+
+    margin: 50px;
+}
+
+a > img:hover {
+    box-shadow: 20px 20px 20px rgba(96, 196, 214, 0.904);
+}
+
+a > h3:hover {
+    text-shadow: 20px 20px 20px rgba(96, 196, 214, 0.904);
+}
